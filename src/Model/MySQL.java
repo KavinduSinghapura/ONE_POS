@@ -13,7 +13,7 @@ public class MySQL {
         
         if(connection == null){
             Class.forName("com.mysql.cj.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/group_project", "root", "Kavindu@1972");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/group_project", "root", "NorlanUk1@");
         }
         
     }
