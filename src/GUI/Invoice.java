@@ -72,6 +72,7 @@ public class Invoice extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         TakeAwayInvoice takeAwayInvoice = new TakeAwayInvoice();
         takeAwayInvoice.setVisible(true);
+        takeAwayInvoice.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
