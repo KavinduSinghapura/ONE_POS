@@ -92,7 +92,6 @@ public class TakeAwayInvoice extends javax.swing.JFrame {
 
         jPanel1.setPreferredSize(new java.awt.Dimension(420, 474));
 
-        jButton3.setBackground(new java.awt.Color(255, 0, 51));
         jButton3.setFont(new java.awt.Font("Segoe UI Semibold", 1, 18)); // NOI18N
         jButton3.setText("Remove");
         jButton3.setPreferredSize(new java.awt.Dimension(67, 35));
@@ -102,7 +101,6 @@ public class TakeAwayInvoice extends javax.swing.JFrame {
             }
         });
 
-        jButton4.setBackground(new java.awt.Color(102, 255, 0));
         jButton4.setFont(new java.awt.Font("Segoe UI Semibold", 1, 18)); // NOI18N
         jButton4.setText("Add");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -142,7 +140,6 @@ public class TakeAwayInvoice extends javax.swing.JFrame {
 
         jTextField4.setFont(new java.awt.Font("Segoe UI Semibold", 0, 18)); // NOI18N
 
-        jButton7.setBackground(new java.awt.Color(102, 255, 0));
         jButton7.setFont(new java.awt.Font("Segoe UI Semibold", 1, 18)); // NOI18N
         jButton7.setText("Cash Drawer Access");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -315,10 +312,9 @@ public class TakeAwayInvoice extends javax.swing.JFrame {
 
         getContentPane().add(jPanel1, java.awt.BorderLayout.LINE_START);
 
-        jPanel2.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel2.setBackground(new java.awt.Color(102, 102, 102));
         jPanel2.setPreferredSize(new java.awt.Dimension(500, 474));
 
-        jTable2.setBackground(new java.awt.Color(255, 204, 204));
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null},
@@ -365,7 +361,7 @@ public class TakeAwayInvoice extends javax.swing.JFrame {
         jFormattedTextField2.setFont(new java.awt.Font("Segoe UI Semibold", 0, 18)); // NOI18N
 
         jLabel4.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel4.setForeground(new java.awt.Color(255, 0, 51));
         jLabel4.setText("Sub Total (LKR)");
 
         jFormattedTextField3.setForeground(new java.awt.Color(255, 0, 0));
@@ -381,9 +377,9 @@ public class TakeAwayInvoice extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setBackground(new java.awt.Color(51, 255, 102));
+        jButton2.setBackground(new java.awt.Color(51, 102, 0));
         jButton2.setFont(new java.awt.Font("Segoe UI Semibold", 1, 18)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(255, 255, 255));
+        jButton2.setForeground(new java.awt.Color(0, 0, 0));
         jButton2.setText("Pay & Print");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -561,11 +557,9 @@ public class TakeAwayInvoice extends javax.swing.JFrame {
         jLabel11.setFont(new java.awt.Font("Segoe UI Semibold", 0, 12)); // NOI18N
         jLabel11.setText("To");
 
-        jButton9.setBackground(new java.awt.Color(102, 255, 0));
         jButton9.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
         jButton9.setText("Find");
 
-        jButton10.setBackground(new java.awt.Color(255, 0, 51));
         jButton10.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
         jButton10.setText("Clear");
 
@@ -573,7 +567,7 @@ public class TakeAwayInvoice extends javax.swing.JFrame {
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 418, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 424, Short.MAX_VALUE)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -594,7 +588,7 @@ public class TakeAwayInvoice extends javax.swing.JFrame {
                             .addComponent(jButton9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jLabel11)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 80, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 82, Short.MAX_VALUE)
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(jPanel3Layout.createSequentialGroup()
                                 .addComponent(jLabel10)

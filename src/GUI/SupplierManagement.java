@@ -129,7 +129,7 @@ public class SupplierManagement extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        SupplierRegistration sr = new SupplierRegistration(this, true);
+        SupplierRegistration sr = new SupplierRegistration();
         sr.setVisible(true);
         sr.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }//GEN-LAST:event_jButton3ActionPerformed

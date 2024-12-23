@@ -157,7 +157,7 @@ public class Grn extends javax.swing.JFrame {
         jLabel9.setForeground(new java.awt.Color(255, 51, 0));
         jLabel9.setText("Buying Price");
 
-        jFormattedTextField6.setForeground(new java.awt.Color(0, 255, 51));
+        jFormattedTextField6.setForeground(new java.awt.Color(255, 255, 255));
         jFormattedTextField6.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("#0.00"))));
         jFormattedTextField6.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jFormattedTextField6.setText("0.00");
@@ -167,7 +167,7 @@ public class Grn extends javax.swing.JFrame {
         jLabel10.setForeground(new java.awt.Color(255, 51, 0));
         jLabel10.setText("Selling Price");
 
-        jFormattedTextField7.setForeground(new java.awt.Color(0, 255, 51));
+        jFormattedTextField7.setForeground(new java.awt.Color(255, 255, 255));
         jFormattedTextField7.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("#0.00"))));
         jFormattedTextField7.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jFormattedTextField7.setText("0.00");
@@ -189,7 +189,7 @@ public class Grn extends javax.swing.JFrame {
         jLabel13.setForeground(new java.awt.Color(255, 51, 0));
         jLabel13.setText("Quantity");
 
-        jFormattedTextField8.setForeground(new java.awt.Color(0, 255, 51));
+        jFormattedTextField8.setForeground(new java.awt.Color(255, 255, 255));
         jFormattedTextField8.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("#0.00"))));
         jFormattedTextField8.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jFormattedTextField8.setText("0.00");
@@ -467,7 +467,7 @@ public class Grn extends javax.swing.JFrame {
         jLabel21.setForeground(new java.awt.Color(0, 0, 204));
         jLabel21.setText("CASH");
 
-        jButton2.setBackground(new java.awt.Color(51, 255, 102));
+        jButton2.setBackground(new java.awt.Color(0, 102, 51));
         jButton2.setFont(new java.awt.Font("Segoe UI Semibold", 1, 18)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Pay & Print");
@@ -563,20 +563,15 @@ public class Grn extends javax.swing.JFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 391, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 378, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 379, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addGap(0, 40, Short.MAX_VALUE)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 301, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 335, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(17, Short.MAX_VALUE))
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 679, Short.MAX_VALUE)
+            .addComponent(jPanel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 679, Short.MAX_VALUE)
         );
 
         getContentPane().add(jPanel3, java.awt.BorderLayout.CENTER);
