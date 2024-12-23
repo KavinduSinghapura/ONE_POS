@@ -201,12 +201,7 @@ public class EventManagement extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel5MouseEntered
 
     private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseClicked
-        jPanel2.removeAll();
-          jLabel3.setForeground(Color.white);
-            jLabel2.setForeground(Color.green);
-            jLabel4.setForeground(Color.white);
-            jLabel5.setForeground(Color.white);
-        
+
     }//GEN-LAST:event_jLabel2MouseClicked
 
     /**
