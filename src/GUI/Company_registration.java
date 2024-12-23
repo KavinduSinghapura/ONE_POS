@@ -16,12 +16,13 @@ import javax.swing.table.DefaultTableModel;
  */
 public class Company_registration extends javax.swing.JFrame {
 
-        SupplierRegistration sr;
+    SupplierRegistration sr;
 
-   
-    public Company_registration() {
+    public Company_registration(SupplierRegistration sr) {
         initComponents();
-        
+        loadCompanies();
+        this.sr = sr;
+
     }
 
     private void loadCompanies() {
@@ -290,43 +291,24 @@ public class Company_registration extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jTable1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTable1MouseClicked
-        
+        int row = jTable1.getSelectedRow();
+
+        jTextField1.setText(String.valueOf(jTable1.getValueAt(row, 1)));
+        jTextField2.setText(String.valueOf(jTable1.getValueAt(row, 2)));
+
+        jButton1.setEnabled(false);
+
+        if (evt.getClickCount() == 2) {
+            String companyName = String.valueOf(jTable1.getValueAt(row, 1));
+            String companyId = String.valueOf(jTable1.getValueAt(row, 0));
+
+            sr.setCompanyName(companyName);
+            this.dispose();
+            sr.setCompanyId(companyId);
+        }
+
     }//GEN-LAST:event_jTable1MouseClicked
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Company_registration.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Company_registration.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Company_registration.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Company_registration.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Company_registration().setVisible(true);
-            }
-        });
-    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
